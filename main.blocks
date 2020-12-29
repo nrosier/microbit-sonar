@@ -1,4 +1,1 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="lNkrt2@sO9[R3Wfh8#FW">distance</variable></variables><block type="device_forever" id="/*h~VB;1RsNFR.kN-A.2" x="82" y="50"><statement name="HANDLER"><block type="variables_set" id="avikcm6*;A*#h}.dAWt!"><field name="VAR" id="lNkrt2@sO9[R3Wfh8#FW">distance</field><value name="VALUE"><shadow type="math_number" id="b3Cq@C]:Tr|DZQ$,Vv%a"><field name="NUM">0</field></shadow><block type="sonar_ping" id="N+qu%i%3tW#8=YB}/3d!"><field name="trig">DigitalPin.P0</field><field name="echo">DigitalPin.P1</field><field name="unit">PingUnit.Centimeters</field></block></value><next><block type="device_show_number" id="dX#v0AK7n~}6y=1Yh8+L"><value name="number"><shadow type="math_number" id="0V%-G-P[c7p[?IBr(5iC"><field name="NUM">0</field></shadow><block type="variables_get" id="e^8gQm@RIx2LsfnSq_lf"><field name="VAR" id="lNkrt2@sO9[R3Wfh8#FW">distance</field></block></value></block></next></block></statement></block></xml>
