@@ -7,6 +7,6 @@ basic.forever(function () {
     )
     led.plotBarGraph(
     distance,
-    0
+    50
     )
 })
