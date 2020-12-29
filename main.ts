@@ -5,5 +5,8 @@ basic.forever(function () {
     DigitalPin.P1,
     PingUnit.Centimeters
     )
-    basic.showNumber(distance)
+    led.plotBarGraph(
+    distance,
+    0
+    )
 })
